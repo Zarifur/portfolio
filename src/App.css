@@ -1,0 +1,178 @@
+h3 {
+  margin: 0px;
+  margin-top: 0.5rem;
+}
+.grid {
+  display: grid;
+  position: relative;
+  align-items: center;
+  justify-items: center;
+  margin-top: 5rem;
+  grid-template-columns: 88rem 4.5rem;
+}
+.main-box {
+  /* background-color: aquamarine; */
+  background: linear-gradient(to bottom, #185a9d, #43cea2);
+  height: 38rem;
+  align-content: center;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  border-radius: 35px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.navbar-box {
+  height: 38rem;
+  width: -webkit-fill-available;
+  display: grid;
+  grid-template-rows: 70% 30%;
+}
+.side-content {
+  /* background-color: cornflowerblue; */
+
+  height: inherit;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  grid-template-rows: 70% 10% 10% 10%;
+}
+.main-content {
+  background-color: #f3f5f9;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  border-radius: 35px;
+}
+.navbar {
+  background-color: #f3f5f9;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  font-size: 38px;
+  border-radius: 35px;
+  gap: 2rem;
+  /* grid-template-rows: repeat(5, 66px); */
+}
+.main-content > h1 {
+  margin: 0px;
+}
+.user-info {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin-top: 2rem;
+}
+.user-image {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 27rem;
+  display: flex;
+}
+.user-info > span > h1 {
+  margin: 0px;
+  margin-top: 1rem;
+}
+.icon-fix {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+/* .navbar > div span {
+  transition: color 250ms;
+} */
+.navbar > div span:hover {
+  color: #185a9d;
+  cursor: pointer;
+}
+/* CSS */
+.button {
+  align-items: center;
+  appearance: none;
+  border-radius: 4px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 1px -2px, rgba(0, 0, 0, 0.14) 0 2px 2px 0,
+    rgba(0, 0, 0, 0.12) 0 1px 5px 0;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: Roboto, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  height: 36px;
+  justify-content: center;
+  letter-spacing: 0.0892857em;
+  line-height: normal;
+  min-width: 64px;
+  outline: none;
+  overflow: visible;
+  padding: 0 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  will-change: transform, opacity;
+}
+
+.button:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px -1px, rgba(0, 0, 0, 0.14) 0 4px 5px 0,
+    rgba(0, 0, 0, 0.12) 0 1px 10px 0;
+  color: #185a9d;
+}
+.menu-title {
+  position: absolute;
+  right: 0;
+  left: -250%;
+  transform: translateX(200%);
+  z-index: -9999;
+  opacity: 0;
+  transition: transform 300ms ease;
+}
+
+.navbar > div:hover .menu-title {
+  transform: translateX(0);
+  opacity: 1;
+  z-index: 0;
+}
+
+.navbar > div {
+  position: relative;
+}
+/* .button-61:disabled {
+  background-color: rgba(0, 0, 0, .12);
+  box-shadow: rgba(0, 0, 0, .2) 0 0 0 0, rgba(0, 0, 0, .14) 0 0 0 0, rgba(0, 0, 0, .12) 0 0 0 0;
+  color: rgba(0, 0, 0, .37);
+  cursor: default;
+  pointer-events: none;
+}
+
+.button-61:not(:disabled) {
+  background-color: #6200ee;
+}
+
+.button-61:focus {
+  box-shadow: rgba(0, 0, 0, .2) 0 2px 4px -1px, rgba(0, 0, 0, .14) 0 4px 5px 0, rgba(0, 0, 0, .12) 0 1px 10px 0;
+}
+
+.button-61:active {
+  box-shadow: rgba(0, 0, 0, .2) 0 5px 5px -3px, rgba(0, 0, 0, .14) 0 8px 10px 1px, rgba(0, 0, 0, .12) 0 3px 14px 2px;
+  background: #A46BF5;
+} */
